@@ -1,0 +1,987 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Impact First, Data Last",
+    "content": "The most common mistake in digital twin implementations is starting with data collection. Organizations spend months collecting and integrating data before understanding what impact they want to achieve. SMILE reverses this: start with the desired outcome, trace back through actions, insights, and information to understand what data is actually needed. This reduces implementation time by eliminating unnecessary data collection and focuses investment on value-generating activities.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "methodology",
+      "strategy",
+      "failure-modes",
+      "reality-emulation"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-002",
+    "title": "The Greenest Asset Is the One That Already Exists",
+    "content": "More than 80% of the buildings existing in 2050 will be made up by the ones that already exist today. In order to meet long-term political goals (zero greenhouse emissions by 2045), we must create robust, useful, attractive, and highly scalable energy efficiency solutions for existing real estate portfolios. Self-learning, platform-independent, open control systems can optimize heating supply considering individual rooms, the in-house system, and the energy supplier \u2014 striving for the lowest possible CO2 emissions as a whole.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "sustainability",
+      "smart-buildings",
+      "energy",
+      "existing-assets"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-003",
+    "title": "Ontology Factories as Foundation for AI Factories",
+    "content": "Before deploying AI, organizations need structured knowledge. Ontology factories create the semantic foundation \u2014 mapping entities, relationships, and context \u2014 that AI algorithms need to reason effectively. Without ontologies, AI operates on unstructured data and produces unexplainable results. The sequence is: Ontology Factory \u2192 Knowledge Graph \u2192 AI Factory. This is why SMILE Phase 3 (Collective Intelligence) must precede Phase 5 (Continuous Intelligence).",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "ontology",
+      "AI",
+      "knowledge-graph",
+      "collective-intelligence",
+      "continuous-intelligence"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-004",
+    "title": "Edge-Native Is the Way \u2014 Local Control First",
+    "content": "Digital twins should run on the edge with capabilities matching the cloud. Intelligence must be created where data is generated, not shipped to a distant cloud for processing. This reduces latency, improves data sovereignty, enables offline operation, and reduces bandwidth costs. The pattern: local control first, cloud sync second, distributed intelligence always. Edge/hybrid architectures with 5G/6G and network slicing enable this at scale.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "edge",
+      "architecture",
+      "distributed-intelligence",
+      "contextual-intelligence"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-005",
+    "title": "Explainable AI Is Easiest When Anchored in Reality",
+    "content": "The challenge of AI explainability largely disappears when AI decisions are grounded in real-world context. If an AI recommends reducing heating by 15%, and it can point to the specific room temperature data, outdoor conditions, occupancy patterns, and energy pricing that drove the decision \u2014 it's explainable. The SMILE AI Journey (Data Contextualization \u2192 AI-Ready \u2192 AI-Infused \u2192 AI-Ingrained \u2192 Explainable AI) ensures each step builds on verifiable reality.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "explainable-AI",
+      "methodology",
+      "ai-journey",
+      "trust"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-006",
+    "title": "Actor-Network Theory Applied to Digital Twins",
+    "content": "Bruno Latour's Actor-Network Theory (ANT) proposes that both humans and non-humans are actors in networks. Applied to digital twins: sensors, buildings, algorithms, facility managers, and regulatory frameworks are all equal actors. SMILE uses this lens to ensure implementations consider the full sociotechnological ecosystem \u2014 not just the technical components. This prevents the common failure mode of technically excellent twins that nobody uses because organizational and human factors were ignored.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "theory",
+      "ANT",
+      "ecosystem",
+      "reality-emulation"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-007",
+    "title": "Minimal Viable Twin \u2014 Virtual First Validation",
+    "content": "The MVT (Minimal Viable Twin) applies lean methodology to digital twins. Instead of building a comprehensive digital twin upfront, start with the smallest twin that delivers measurable value. Validate hypotheses virtually before physical deployment \u2014 try before you buy. This dramatically reduces implementation risk and cost. A successful MVT can be delivered in days to weeks, not months to years.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "MVT",
+      "lean",
+      "virtual-first",
+      "concurrent-engineering"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-008",
+    "title": "Four Layers of Interoperability",
+    "content": "True interoperability requires alignment across four layers: (1) Technical \u2014 protocols, APIs, transport (HTTP, MQTT, REST), (2) Semantic \u2014 shared meaning through ontologies and metadata registries, (3) Organizational \u2014 process alignment and governance, (4) Legal \u2014 data sovereignty, GDPR, cross-organizational agreements. Most digital twin implementations only address technical interoperability and wonder why systems don't truly work together. SMILE addresses all four from Phase 1.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "interoperability",
+      "standards",
+      "methodology",
+      "omni-interoperability"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-009",
+    "title": "Distributed Autonomous Digital Twins at the Edge",
+    "content": "Intelligent digital twins should be distributed and autonomous, running at the edge with capabilities matching the cloud. In maritime, energy, and industrial contexts, self-learning algorithms at the edge enable real-time optimization without round-trips to centralized infrastructure. The pattern involves edge gateways with distributed intelligence, self-learning and self-actuating capabilities, and emulation of reality using standardized data models (IFC/BIM foundations). Edge-native twins reduce latency, improve resilience for remote assets, and enable plug-and-play Digital Twin as a Service deployment.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "edge",
+      "distributed-intelligence",
+      "autonomous",
+      "maritime",
+      "architecture"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-010",
+    "title": "Zoom Out to Zoom In \u2014 Context-First Methodology",
+    "content": "The Zoom Out to Zoom In methodology establishes context before diving into implementation details. Start at the planetary or ecosystem level to understand the full operating context, then progressively zoom into the organization, factory, and asset/component levels. This multi-scale approach ensures digital twin implementations consider the full sociotechnological ecosystem \u2014 from global supply chains down to individual sensor readings. The methodology uses four nested scopes: Digital Mesh (global supply chain), Operating Context, Organization, and Factory/Asset level. At each level, different interoperability mechanisms and stakeholder considerations apply.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "methodology",
+      "zoom-out-zoom-in",
+      "context-management",
+      "SMILE",
+      "multi-scale"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-011",
+    "title": "SMILE Six-Phase Digital Twin Journey",
+    "content": "The SMILE methodology defines six progressive phases for digital twin implementation: (1) Reality Emulation \u2014 creating a shared digital representation of the as-is reality, (2) Concurrent Engineering \u2014 virtual-first completion with emulation-based scenarios, (3) Collective Intelligence \u2014 invite to innovate, define scope, validate hypotheses, define the Minimal Viable Twin (MVT), (4) Contextual Intelligence \u2014 physical sensors, meet initial KPIs, ontology creation, remote enablement, (5) Continuous Intelligence \u2014 connected everything, command and control, real-time decisions, predictive analytics, root cause analysis, (6) Perpetual Wisdom \u2014 prescriptive maintenance, AI-driven prognostics, universal event pipeline, black swan identification, ecosystem enablement, circular strategies. Each phase builds on the previous, with an AI Journey running in parallel: Data Contextualization, AI-Ready, AI-Infused, AI-Ingrained, and finally Explainable AI.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "SMILE",
+      "methodology",
+      "digital-twin-journey",
+      "six-phases",
+      "reality-emulation"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-012",
+    "title": "Context Management Through Spatial and Temporal Anchoring",
+    "content": "Context implies a set of circumstances surrounding a particular event, situation, or condition \u2014 having a starting point is fundamental to establishing context. Spatial and temporal contexts are the universal dimensions shared by people, systems, AI, and organizations. Spatial context refers to the physical location or environment; temporal context refers to the timing or sequence of events. Everything in reality has occupied, occupies, or will occupy an area in space and time. Utilizing spaces as boundary-spanning elements between different actors accelerates knowledge transfer and forms the foundation for interoperability mechanisms. Without a starting point, context becomes vague and undefined because it lacks a frame of reference. The starting point acts as an anchor \u2014 it could be a specific entity, event, situation, person, or location.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "context-management",
+      "spatial-anchoring",
+      "temporal",
+      "interoperability",
+      "MIM"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-013",
+    "title": "Omni-Interoperability for Knowledge Transfer",
+    "content": "Omni-interoperability accelerates knowledge transfer between people, systems, and AI. The approach starts with the outcome (not data) and works backwards through the sequence: Outcome/Impact, Action, Insight, Information, Data. It requires alignment across four layers: Legal and Organizational interoperability (process alignment, BPM, process coordination), Semantic interoperability (metadata registries, ontologies, syntactic alignment), and Technical interoperability (HTTP, SMTP over TCP/IP, MQTT, REST). Benefits-driven resiliency initiatives leverage simulation capabilities for seamless transfer of knowledge between actors in a system. Humans, machines, organizations, and entities operate on the same level \u2014 where everything is understood between them, irrespectively of whether they are human, machines, or autonomous AI agents.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "omni-interoperability",
+      "knowledge-transfer",
+      "SMILE",
+      "standards",
+      "benefits-driven"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-014",
+    "title": "ANT Applied to Minimal Interoperability Mechanisms",
+    "content": "When integrating Actor-Network Theory (ANT) into context management for Minimal Interoperability Mechanisms (MIM), the focus shifts to understanding how every participant \u2014 human, technological, or organizational \u2014 contributes to the overall functioning of sociotechnical ecosystems. ANT views entities as interconnected actors that constantly shape and redefine network dynamics. This means designing systems that acknowledge the active role of different actors (sensors, people, institutions) and their interrelationships, influencing how information is collected, shared, and utilized. The approach promotes a holistic and adaptable framework for context management, fostering environments responsive to the needs and influences of all actors involved. By adopting an ANT perspective, context management can address complex real-world challenges recognizing co-creation of value and knowledge within networked interactions of people, technology, and organizations.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "ANT",
+      "MIM",
+      "context-management",
+      "sociotechnological",
+      "ecosystem"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-015",
+    "title": "Sociotechnological Ecosystem Assessment Framework",
+    "content": "In a sociotechnological ecosystem, all actors continuously transfer knowledge within themselves and the world around them. To think outside the box, one must first define the box. The framework involves specifying a starting point in the ecosystem and a boundary box for any focus area. Shining the spotlight within or outside that focus area reveals contextual factors as a dynamic perspective. Assessment dimensions include: Security (physical and digital attack surfaces), Analytics (at any stage, around any actor, in isolation or systems-of-systems), Resources (embodied carbon, net zero strategies, sustainable development), Fair AI (contextual dimensions for equitable AI practices throughout the lifecycle), Space and Time (spatial-temporal understanding as foundation), Privacy (GDPR/personal data in ecosystem context), and Data Flow (specifying where and how data transfers between actors along the impact-action-insight-information-data sequence).",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "assessment",
+      "sociotechnological",
+      "ecosystem",
+      "security",
+      "fair-AI",
+      "sustainability"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-016",
+    "title": "Democratizing Smart Buildings Through Open Interoperable Systems",
+    "content": "Opening up any building, any asset, in any industry for innovation on a global scale requires transitioning from siloed, vendor-locked systems to open, interoperable platforms. Key capabilities include: standardized interoperable data sets, predictive and prescriptive maintenance, IT/OT/IoT interoperability with engineering technology intent, transparent sustainability with measurable impact, standardized tagged APIs to the building, understandability for systems, people, and AI/ML, knowledge transfer between people and generations, local control first with digital twins on the edge, smart grid and smart city inclusion, and plug-and-play installation. This addresses the traditional pain points of siloed data, vendor lock-in, skill-shortage gaps, long implementation times, direct-to-cloud dependencies, and coordination challenges between experts.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "smart-buildings",
+      "open-systems",
+      "interoperability",
+      "democratization",
+      "edge"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-017",
+    "title": "Virtual-First Strategy and Reality Table-Top Exercises",
+    "content": "Organizations should simulate everything in a digital copy of reality prior to any implementation. The virtual-first strategy involves: using 3D+ representations of reality to consolidate information, deploying prototype twins (MVT) before actual digital twins with real-time data, and running reality-focused table-top exercises for multiplayer collaboration. The Extreme Collaboration approach leverages Virtual Reality, Augmented Reality, and Mixed Reality to make better decisions faster \u2014 enabling the ability to fold space and time. This applies at every scale from planetary (biome, ecosystem, community, population) down to buildings (rooms, components, software, AI methods, metadata, taxonomies, ontologies). Successful AI projects require good understanding of the as-is state combined with purpose and outcome.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "virtual-first",
+      "XR",
+      "collaboration",
+      "MVT",
+      "simulation",
+      "table-top"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-018",
+    "title": "Dynamic Digital Twins \u2014 Lean Go-to-Market Principles",
+    "content": "Dynamic digital twins follow lean startup principles for rapid market entry: customer engagement first, copy-paste scalability assessment and execution, acquiring customer pilots early, pitch deck and go-to-market creation, agile development cycles, and lean principles throughout. The 'dynamic' aspect means twins that continuously evolve through customer feedback loops rather than being designed as static representations. This approach reduces time-to-value from months/years to weeks by focusing on agreed-upon value creation in the shortest amount of time, avoiding silo-based suboptimization that can inflate costs by 5x or more.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "dynamic-twins",
+      "lean",
+      "go-to-market",
+      "agile",
+      "scalability"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-019",
+    "title": "Interoperable Digital Twin Lifecycle Templates",
+    "content": "Digital twin lifecycle templates enable organizations to absorb the past, simulate the future, and transcend the now. The template spans physical and virtual spaces across time: the Physical Twin (as-is) with physical sensors exists in the present, while the Virtual Digital Twin (digital to-be) with virtual sensors enables simulation into the future. A Digital Mesh or Data Fabric provides the planetary foundation connecting past, present, and future states. The lifecycle template is interoperable by design, meaning it can be applied across industries \u2014 from maritime to healthcare to energy \u2014 with the same underlying structure adapted to domain-specific ontologies and standards. The key insight is that past and future converge in the virtual space through simulation, enabling contextual decision-making that transcends temporal limitations.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "lifecycle",
+      "digital-twin-template",
+      "simulation",
+      "data-fabric",
+      "interoperability"
+    ],
+    "created_at": "2026-03-28",
+    "anonymized": true
+  },
+  {
+    "id": "kb-020",
+    "title": "Digital Twin Failure Mode: The Proof-of-Concept Graveyard",
+    "content": "The most common digital twin failure is the perpetual proof-of-concept that never scales to production. Root causes: no business owner, undefined success metrics, inability to replicate integration effort, and cost models assuming non-recurring engineering. Prevention requires defining the scale path before the pilot begins.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "failure-modes",
+      "anti-patterns",
+      "methodology",
+      "scalability"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-021",
+    "title": "Digital Twin Failure Mode: Data Hoarding Without Purpose",
+    "content": "Organizations collect terabytes of sensor data then build a twin around available data rather than needed data. The fix is backward design: state the impact, identify the decision, insight, information, then data. Most organizations need 20% of planned data and were missing the 5% that mattered.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "failure-modes",
+      "anti-patterns",
+      "methodology",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-022",
+    "title": "Digital Twin Failure Mode: Semantic Drift and Ontology Neglect",
+    "content": "Digital twins degrade when the semantic layer is neglected. Naming conventions change, sensors added with inconsistent metadata. Within 18-24 months the twin no longer represents reality. Prevention: treat ontology as a living artifact with versioning and quarterly reality walks.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "failure-modes",
+      "anti-patterns",
+      "ontology",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-023",
+    "title": "Digital Twin Failure Mode: Shadow IT Integration Debt",
+    "content": "Point-to-point integrations bypassing IT governance create shadow IT debt. Each integration is bespoke, undocumented, maintained by one person. Remedy: standardized patterns (MQTT, OPC-UA, versioned REST APIs) from day one.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "failure-modes",
+      "anti-patterns",
+      "integration",
+      "interoperability"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-024",
+    "title": "Digital Twin Failure Mode: Vendor Lock-In",
+    "content": "Vendors design offerings where data model, API, and analytics are proprietary. Defense: require open data model compliance (DTDL, IFC, W3C SSN) contractually, maintain sovereignty over the knowledge graph, test full data export before signing.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "failure-modes",
+      "anti-patterns",
+      "standards",
+      "interoperability",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-025",
+    "title": "Predictive Maintenance: Reactive to Prescriptive",
+    "content": "Four stages: Reactive (fix when broken), Preventive (scheduled), Predictive (condition-based, 30-50% downtime reduction), Prescriptive (twin recommends actions, parts, teams). SMILE Phase 5 targets Stage 3, Phase 6 targets Stage 4.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "manufacturing",
+      "predictive-maintenance",
+      "methodology",
+      "AI",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-026",
+    "title": "Factory Digital Twin: Asset to Production System",
+    "content": "A factory twin is a nested hierarchy: Asset (ms-sec), Cell (sec-min), Line (min-hr), Plant (hr-day). Each layer aggregates upward, drives decisions downward. Key challenge: time-synchronization across layers.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "manufacturing",
+      "architecture",
+      "simulation",
+      "interoperability"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-027",
+    "title": "OEE as Starting Metric for Manufacturing Twins",
+    "content": "Overall Equipment Effectiveness (Availability x Performance x Quality). World-class 85%, average 60%. A baseline OEE twin built in 4-8 weeks from SCADA/MES data creates immediate value and credibility.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "manufacturing",
+      "roi",
+      "business-case",
+      "methodology",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-028",
+    "title": "Supply Chain Digital Twins",
+    "content": "Three use cases: Visibility (real-time status, Phase 4), Simulation (disruption scenarios, Phase 5), Resilience (continuous simulation, Phase 6). Most organizations overinvest in visibility and underinvest in simulation.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "manufacturing",
+      "supply-chain",
+      "simulation",
+      "AI",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-029",
+    "title": "Quality Control Twins",
+    "content": "Model relationships between process parameters and product quality outcomes. Foundation: process-quality knowledge graph in SMILE Phase 3 Ontology Factory.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "manufacturing",
+      "ontology",
+      "knowledge-graph",
+      "AI",
+      "predictive-maintenance"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-030",
+    "title": "Patient Digital Twin: Architecture and Ethics",
+    "content": "Integrates biomarkers, imaging, genomics, lifestyle, environmental data. Ethical requirements: patient ownership, explainable inferences, augmentation not substitution. Architecture: edge-native, federated learning, granular consent.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "healthcare",
+      "sovereignty",
+      "data-governance",
+      "edge",
+      "AI",
+      "explainable-ai"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-031",
+    "title": "Clinical Trial Simulation Using Digital Twins",
+    "content": "In-silico trials reduce trial size 30-60%. Critical: validated mechanistic model required. EU and US regulators accepting in-silico evidence as supplementary data for device approvals.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "healthcare",
+      "simulation",
+      "AI",
+      "strategy",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-032",
+    "title": "Hospital Operations Twin: Flow Optimization",
+    "content": "Connects ED, wards, ICU, surgical suites, discharge in real-time simulation predicting capacity constraints hours in advance. Starts with ADT systems, bed management, theatre scheduling.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "healthcare",
+      "simulation",
+      "AI",
+      "integration",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-033",
+    "title": "PK/PD Modeling in Digital Twins",
+    "content": "Pharmacokinetic/pharmacodynamic models enable personalized dosing based on weight, renal function, genetic polymorphisms, co-medications. Combines Bayesian inference with mechanistic models.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "healthcare",
+      "simulation",
+      "AI",
+      "explainable-ai",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-034",
+    "title": "Remote Patient Monitoring and the Continuous Health Twin",
+    "content": "Wearable-enabled continuous monitoring tracks trajectory, not snapshots. Value in trend detection across multiple individually insignificant signals. Sovereignty non-negotiable for this data profile.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "healthcare",
+      "edge",
+      "sovereignty",
+      "AI",
+      "data-governance",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-035",
+    "title": "Energy Grid Digital Twins at the Edge",
+    "content": "Grid state changes faster than centralized processing. Edge-native twins distribute state estimation to substation level. Integration: IEC 61850 for substation automation, CIM for network topology.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "energy",
+      "edge",
+      "interoperability",
+      "simulation",
+      "standards"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-036",
+    "title": "Renewable Energy Integration",
+    "content": "Variable renewable integration requires managing uncertainty at multiple timescales. Aggregating renewable twins creates virtual power plant capability without centralized market structure.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "energy",
+      "simulation",
+      "AI",
+      "distributed-intelligence",
+      "sustainability"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-037",
+    "title": "Smart Meter Data and Residential Energy Twin",
+    "content": "Enables disaggregation, anomaly detection, demand flexibility at portfolio level. Governance must separate individual data (private) from aggregated insights (operational).",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "energy",
+      "data-governance",
+      "gdpr",
+      "AI",
+      "sovereignty"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-038",
+    "title": "Asset Health Twins for Grid Infrastructure",
+    "content": "Combine nameplate data, loading history, diagnostics into health index. A 500K transformer costs 5K/year to monitor. SMILE framing: reduce outage hours 40% while deferring capital.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "energy",
+      "predictive-maintenance",
+      "roi",
+      "business-case",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-039",
+    "title": "Vessel Digital Twin: Hull, Propulsion, Voyage",
+    "content": "Three interconnected models. Integration creates compounding value: hull fouling prediction adjusts voyage optimization and triggers dry-dock scheduling.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "maritime",
+      "predictive-maintenance",
+      "simulation",
+      "AI",
+      "sustainability"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-040",
+    "title": "Port Digital Twin: Berth and Operations",
+    "content": "Synchronizes vessel arrivals, berth capacity, cranes, yard, gates. Berth allocation simulation converts reactive crisis management into proactive scheduling. Requires port domain ontology.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "maritime",
+      "logistics",
+      "simulation",
+      "ontology",
+      "business-case"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-041",
+    "title": "Fleet Twin for Maritime Emission Compliance",
+    "content": "IMO CII and EU ETS create mandatory business case for fleet twins. Aggregates CII, projects ratings, recommends operational interventions.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "maritime",
+      "sustainability",
+      "business-case",
+      "roi",
+      "standards"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-042",
+    "title": "Digital Twin ROI: Three Horizons",
+    "content": "Horizon 1 (0-12mo): operational efficiency. Horizon 2 (12-36mo): decision quality. Horizon 3 (36+mo): ecosystem value. Build Horizon 1 conservatively, let 2-3 emerge from performance.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "roi",
+      "business-case",
+      "strategy",
+      "methodology"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-043",
+    "title": "The Six Financial Levers",
+    "content": "(1) Downtime reduction, (2) Energy optimization, (3) Labor productivity, (4) Capital deferral, (5) Quality improvement, (6) Compliance/risk. Establish baselines with finance before implementation.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "roi",
+      "business-case",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-044",
+    "title": "Digital Twin Cost Modeling: Hidden Categories",
+    "content": "Four beyond software: (1) Data integration 40-60% of total, (2) Semantic alignment, (3) Change management, (4) Ongoing operations. License = 20-30% of five-year TCO.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "roi",
+      "business-case",
+      "strategy",
+      "anti-patterns",
+      "change-management"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-045",
+    "title": "Staged Investment: MVT to Full-Scale",
+    "content": "Gate model aligned with SMILE: Gate 0 discovery, Gate 1 MVT design, Gate 2 ontology, Gate 3 sensors, Gate 4 AI. Never commit full capital before de-risking each phase.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "roi",
+      "business-case",
+      "methodology",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-046",
+    "title": "ISO 23247: Manufacturing Digital Twin Framework",
+    "content": "Four-part architecture: observable elements, device connectivity, data management, user applications. Defines Digital Twin Observable Entity (DTOE). Use as procurement contract term.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "standards",
+      "iso",
+      "manufacturing",
+      "interoperability"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-047",
+    "title": "IFC: Built Environment Data Standard",
+    "content": "Open BIM standard with 800+ entity types. IFC4 (stable), IFC4.3 (infrastructure). Twins on IFC exchange data with any compliant tool, avoiding geometric lock-in.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "standards",
+      "smart-buildings",
+      "interoperability",
+      "ontology"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-048",
+    "title": "DTDL: Digital Twins Definition Language",
+    "content": "JSON-LD schema for twin models. Useful lingua franca for model exchange. Limitation: schema only, not full ontology. Pair with W3C SSN/SOSA for semantic layer.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "standards",
+      "interoperability",
+      "ontology",
+      "integration"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-049",
+    "title": "W3C SSN/SOSA: Semantic Sensor Network Ontology",
+    "content": "Defines what sensors measure, what they measure on, and results with units and quality. Without this, sensor data is numbers without meaning.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "standards",
+      "ontology",
+      "interoperability",
+      "knowledge-graph"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-050",
+    "title": "GDPR and Digital Twin Data Governance",
+    "content": "Twins with personal data are GDPR-regulated. Key: legal basis per stream, data minimization (aligns with impact-first), purpose limitation, data subject rights, DPIA. Design personal-data boundary from day one.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "data-governance",
+      "gdpr",
+      "sovereignty",
+      "lifecycle"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-051",
+    "title": "Data Sovereignty by Architecture",
+    "content": "Sovereignty is architectural, not policy. Process sensitive data at edge; share only derived/anonymized outputs. Enables strict residency requirements.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "data-governance",
+      "sovereignty",
+      "edge",
+      "distributed-intelligence",
+      "security"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-052",
+    "title": "Data Products in Digital Twin Ecosystems",
+    "content": "Curated, governed data outputs for reuse. Each has owner, semantic definition, quality SLA, versioned API, lineage trace. Transforms twin from app to platform.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "data-governance",
+      "interoperability",
+      "strategy",
+      "business-case"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-053",
+    "title": "Organizational Readiness: Five Dimensions",
+    "content": "(1) Data, (2) Process, (3) Skill, (4) Governance, (5) Cultural readiness. Assess before implementation to prevent expensive failure: excellent twin that changes nothing.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "change-management",
+      "adoption",
+      "strategy",
+      "methodology"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-054",
+    "title": "Closing the OT Skills Gap",
+    "content": "OT-IT bridge skill rare. Options: upskill OT, hire IT with OT mentors, managed service. SMILE recommends option 2 with Reality Canvas workshops.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "change-management",
+      "adoption",
+      "manufacturing",
+      "energy",
+      "methodology"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-055",
+    "title": "Making the Twin Visible in Daily Workflows",
+    "content": "A twin not embedded in workflows gets bypassed in 90 days. Requirements: easiest path to info, actionable in existing systems, visibly right on verifiable decisions.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "change-management",
+      "adoption",
+      "strategy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-056",
+    "title": "MQTT for IoT and Digital Twin Ingestion",
+    "content": "Dominant pub-sub protocol. Key: topic namespace design, TLS authentication, last-will health monitoring. MQTT 5.0 added expiry and user properties for DT use cases.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "integration",
+      "mqtt",
+      "edge",
+      "architecture",
+      "standards"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-057",
+    "title": "OPC-UA: Industrial Integration Standard",
+    "content": "IEC 62541: semantic data descriptions, end-to-end security, domain companion specs. OPC-UA over MQTT combines richness with scalability.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "integration",
+      "opc-ua",
+      "manufacturing",
+      "standards",
+      "security"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-058",
+    "title": "REST APIs in Digital Twin Architectures",
+    "content": "Principles: resource-oriented, versioned, HATEOAS, semantically typed (JSON-LD), OpenTelemetry traced.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "integration",
+      "interoperability",
+      "standards",
+      "architecture"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-059",
+    "title": "Legacy System Integration: The Bridge Pattern",
+    "content": "Protocol translation gateways adjacent to legacy systems. Historian bridges. Critical: never modify production OT during initial integration. Read-only first.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "integration",
+      "manufacturing",
+      "energy",
+      "architecture",
+      "opc-ua"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-060",
+    "title": "Digital Twin Attack Surface: OT-IT Convergence",
+    "content": "Threats: lateral movement, data poisoning, model theft, availability attacks. Defense: segmentation, read-only default, anomaly detection on sensor data.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "security",
+      "threat-model",
+      "ot-security",
+      "integration",
+      "manufacturing"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-061",
+    "title": "IEC 62443: OT Security Framework",
+    "content": "Four security levels, zone-and-conduit architecture, component requirements, patch management. Increasingly a procurement condition for DT platforms.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "security",
+      "ot-security",
+      "standards",
+      "manufacturing",
+      "energy"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-062",
+    "title": "Zero Trust for Digital Twin Platforms",
+    "content": "Identity for every entity, least-privilege access, continuous verification, encrypted everywhere, immutable audit log with full lineage.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "security",
+      "threat-model",
+      "data-governance",
+      "architecture"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  },
+  {
+    "id": "kb-063",
+    "title": "MIMs Plus: Cross-Domain Interoperability",
+    "content": "Seven MIMs: open APIs, federated data, ecosystem transactions, open licenses, linked data, secure edge comms, geospatial alignment. Design against from Phase 1.",
+    "visibility": "public",
+    "tier": "free",
+    "tags": [
+      "standards",
+      "interoperability",
+      "smart-cities",
+      "data-governance",
+      "ontology"
+    ],
+    "created_at": "2026-04-12",
+    "anonymized": true
+  }
+]

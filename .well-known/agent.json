@@ -1,0 +1,77 @@
+{
+  "name": "LPI Sandbox",
+  "description": "Read-only knowledge server exposing the SMILE digital twin methodology (Sustainable Methodology for Impact Lifecycle Enablement). Provides methodology phases, implementation guidance, case studies, and best practices for building digital twins. Part of the LifeAtlas Life Programmable Interface.",
+  "url": "https://github.com/Life-Atlas/lpi-developer-kit",
+  "version": "1.0.0",
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "supportedInterfaces": [
+    {
+      "protocolBinding": "MCP-stdio",
+      "url": "local://node dist/src/index.js",
+      "comment": "Local subprocess. Run: node dist/src/index.js"
+    }
+  ],
+  "skills": [
+    {
+      "id": "smile-overview",
+      "name": "SMILE Methodology Overview",
+      "description": "Returns the complete SMILE framework: 6 phases, 3 perspectives, AI journey stages, and core principles.",
+      "tags": ["methodology", "smile", "overview", "digital-twin"],
+      "examples": ["What is SMILE?", "Explain the digital twin methodology"]
+    },
+    {
+      "id": "smile-phase-detail",
+      "name": "SMILE Phase Deep Dive",
+      "description": "Returns detailed information about a specific SMILE phase including activities, deliverables, duration, key questions, and related concepts.",
+      "tags": ["methodology", "smile", "phase", "implementation"],
+      "examples": ["Tell me about the reality-emulation phase", "What happens in concurrent-engineering?"]
+    },
+    {
+      "id": "query-knowledge",
+      "name": "Knowledge Base Search",
+      "description": "Searches the LPI knowledge base for digital twin implementation knowledge, best practices, and methodology guidance across industries.",
+      "tags": ["search", "knowledge", "best-practices", "digital-twin"],
+      "examples": ["How do I handle interoperability?", "What is explainable AI in digital twins?"]
+    },
+    {
+      "id": "get-case-studies",
+      "name": "Case Study Browser",
+      "description": "Browse or search anonymized digital twin implementation case studies across industries including manufacturing, healthcare, energy, and smart buildings.",
+      "tags": ["case-studies", "examples", "implementation", "industry"],
+      "examples": ["Show me smart building case studies", "What industries have used SMILE?"]
+    },
+    {
+      "id": "get-insights",
+      "name": "Implementation Advisor",
+      "description": "Returns scenario-specific digital twin implementation advice including SMILE phase recommendations and common pitfalls.",
+      "tags": ["advice", "implementation", "scenario", "roadmap"],
+      "examples": ["I want to build a personal health digital twin", "How should a manufacturing company start?"]
+    },
+    {
+      "id": "list-topics",
+      "name": "Topic Browser",
+      "description": "Lists all available topics in the LPI knowledge base: SMILE phases, key concepts, perspectives, AI journey stages, and interoperability layers.",
+      "tags": ["discovery", "topics", "browse", "index"],
+      "examples": ["What topics are available?", "What can I learn about?"]
+    },
+    {
+      "id": "get-methodology-step",
+      "name": "Step-by-Step Guide",
+      "description": "Returns practical step-by-step implementation guidance for a specific SMILE phase.",
+      "tags": ["guide", "steps", "implementation", "practical"],
+      "examples": ["How do I implement concurrent-engineering?", "Give me steps for reality-emulation"]
+    }
+  ],
+  "authentication": {
+    "schemes": ["none"]
+  },
+  "provider": {
+    "organization": "WINNIIO / LifeAtlas",
+    "url": "https://lifeatlas.online"
+  }
+}

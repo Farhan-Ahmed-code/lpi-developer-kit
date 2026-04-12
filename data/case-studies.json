@@ -1,0 +1,194 @@
+[
+  {
+    "id": "cs-001",
+    "title": "Smart Heating for Municipal Schools \u2014 Self-Learning Digital Twins",
+    "industry": "Smart Buildings / Education / Energy",
+    "challenge": "Municipal buildings using mechanical temperature control with district heating. High energy consumption and CO2 emissions. Buildings ranging from kindergartens to large schools (315-2985 sqm, 8-40 rooms, 13-151 radiators). Need to reduce emissions while maintaining comfort in educational environments.",
+    "approach": "Applied SMILE methodology: Phase 1 (Reality Emulation) mapped the physical buildings, heating systems, and stakeholder ecosystem. Phase 2 (Concurrent Engineering) designed a wireless, self-learning, platform-independent control system. The system optimizes heat supply from individual radiator \u2192 in-house system \u2192 energy supplier \u2192 energy producer, with the lowest possible CO2 emissions.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence"
+    ],
+    "outcome": "Wireless, self-learning, platform-independent, open (software, API, hardware) control monitoring system deployed across multiple school buildings. System continuously optimizes based on context \u2014 room-level, building-level, and energy grid-level.",
+    "summary": "Applied SMILE to create self-learning smart heating digital twins for municipal schools, optimizing energy from radiator to grid level.",
+    "detailed": "Full deployment across 3 school buildings with 231 radiators total. The system uses wireless sensors, open APIs, and self-learning algorithms to optimize district heating consumption. Key insight: mechanical temperature control was replaced with AI-driven contextual control that considers room occupancy, weather forecasts, building thermal mass, and energy grid conditions simultaneously. The platform-independent architecture ensures zero vendor lock-in.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-002",
+    "title": "National Digital Twin Strategy \u2014 Cross-Industry Interoperability",
+    "industry": "Government / Smart Cities / Infrastructure",
+    "challenge": "A Nordic country needed a national digital twin strategy that spans across industries \u2014 construction, real estate, manufacturing, mobility \u2014 while maintaining data sovereignty and enabling cross-sector knowledge transfer.",
+    "approach": "Applied SMILE from the planetary perspective. Phase 1: Reality Canvas at national scale using GIS/BIM/CIM. Phase 2: Defined MVT for cross-industry interoperability. Phase 3: Ontology alignment across sectors using MIMs (Minimal Interoperability Mechanisms). Phase 4: Connected existing siloed systems through omni-interoperability layers.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence"
+    ],
+    "outcome": "National digital twin strategy framework enabling cross-industry data sharing while preserving data sovereignty. MIMs-based interoperability mechanisms adopted across government and industry stakeholders.",
+    "summary": "Developed a national digital twin strategy using SMILE methodology with MIMs-based interoperability across government and industry.",
+    "detailed": "The strategy established interoperability mechanisms across four layers (technical, semantic, organizational, legal) enabling multiple industries to share contextual data without compromising sovereignty. Key innovation: using Actor-Network Theory to treat all participants \u2014 government agencies, private companies, AI systems, infrastructure sensors \u2014 as equal actors in a national sociotechnological ecosystem.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-003",
+    "title": "Predictive Maintenance Twin for Automotive Assembly",
+    "industry": "Manufacturing / Automotive",
+    "challenge": "High-volume automotive assembly plant with 847 machines experiencing 4.2% unplanned downtime, above the 2% industry benchmark. Maintenance team spending 60% of time on reactive breakdown response.",
+    "approach": "Applied SMILE Phases 1-5. Phase 1: 3D reality canvas of assembly hall mapping each asset to maintenance history and sensor coverage. Phase 2: MVT for 23 highest-criticality welding robots covering 80% of downtime impact. Phase 3: failure mode ontology workshops with engineers mapping sensor patterns to failure precursors. Phase 4: additional sensors, SCADA integration, real-time pipeline. Phase 5: anomaly detection with CMMS work order integration.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence",
+      "continuous-intelligence"
+    ],
+    "outcome": "Unplanned downtime reduced from 4.2% to 1.8% in 12 months. Reactive maintenance work reduced from 60% to 31%. Failure mode ontology became training resource reducing diagnosis time from 4 hours to 45 minutes for new technicians.",
+    "summary": "SMILE Phases 1-5 predictive maintenance twin for 23 critical welding robots reduced unplanned downtime from 4.2% to 1.8%.",
+    "detailed": "The failure mode ontology was more valuable than the predictive model itself. It captured 15 years of tribal knowledge into machine-readable format. Three of the top 10 failure precursors had never been formally documented. The project also revealed 12% of historical maintenance records had incorrect asset identifiers. Total cost 420K over 14 months; annualized downtime cost reduction estimated at 1.1M.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-004",
+    "title": "Continuous Patient Twin for Chronic Disease Management",
+    "industry": "Healthcare / Chronic Disease",
+    "challenge": "Regional health system managing 12,000 Type 2 diabetes patients with escalating hospital admissions. 70% deemed preventable with earlier intervention. Only quarterly HbA1c readings available \u2014 four data points per year for a daily condition.",
+    "approach": "Applied SMILE Phases 1-4. Phase 1: mapped existing data ecosystem against clinical decision points. Phase 2: MVT for 450 high-risk patients using CGM data and weekly app check-ins. Phase 3: diabetes care ontology mapping CGM patterns, medication effects, lifestyle factors to early warnings. Phase 4: continuous monitoring integrating CGM, pharmacy, and patient app data.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence"
+    ],
+    "outcome": "Hospital admissions reduced 34% vs matched controls over 12 months. 1,240 proactive interventions vs 180 reactive in prior year. 78% of patients reported feeling more in control.",
+    "summary": "SMILE Phases 1-4 continuous patient twin for 450 high-risk diabetes patients reduced hospital admissions by 34%.",
+    "detailed": "Consent architecture was the biggest challenge \u2014 patients consented separately for CGM data, pharmacy data, app monitoring, and population model use. Building the consent layer took 8 weeks. The clinical team mapped silent deterioration patterns known to expert nurses but never codified. Deliberately stopped at Phase 4 because clinical governance for AI-generated recommendations was not yet established.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-005",
+    "title": "Renewable Energy Grid Integration Twin",
+    "industry": "Energy / Renewable Integration",
+    "challenge": "Regional distribution network integrating 840 MW of new solar and wind capacity. Infrastructure designed for unidirectional flow now facing bidirectional flows causing voltage regulation and protection system overloading.",
+    "approach": "Applied SMILE Phases 1-5. Phase 1: full CIM network model from GIS data covering 3,400 km, 28,000 transformers. Phase 2: N-1 contingency simulations identifying 12 constraint sections. Phase 3: grid constraint ontology with planning engineers. Phase 4: real-time SCADA, weather, and generation forecast integration. Phase 5: continuous power flow solver updating every 5 minutes with 2-4 hour constraint prediction.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence",
+      "continuous-intelligence"
+    ],
+    "outcome": "12 constraint sections addressed proactively. Renewable curtailment 1.2% vs forecast 6.8% without twin, preserving 4.2M in generation revenue. Proactive reinforcement saved estimated 8M vs reactive approach.",
+    "summary": "Real-time grid twin using CIM model and SMILE Phases 1-5 reduced renewable curtailment from forecast 6.8% to 1.2%.",
+    "detailed": "The CIM model build was the critical enabler \u2014 6 weeks converting GIS/CAD data into computationally usable form. A 90-day shadow mode validated constraint predictions at 89% accuracy before operators incorporated twin alerts into decisions. The Phase 2 simulation generated the highest ROI: identifying constraint sections before physical connection.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-006",
+    "title": "Fleet Digital Twin for Fuel and Emission Optimization",
+    "industry": "Maritime / Fleet Management",
+    "challenge": "Bulk carrier fleet of 34 vessels facing IMO CII regulations, bunker fuel at 45% of voyage costs, and charter market demanding carbon reporting. No consistent digital infrastructure \u2014 performance based on manual noon reports with known accuracy problems.",
+    "approach": "Applied SMILE Phases 1-4. Phase 1: fleet reality canvas mapping each vessel's specs, CII rating, and voyage patterns. Phase 2: MVT for 8 vessels rated D/E using noon report digitization only. Phase 3: vessel performance ontology with superintendents capturing hull, propeller, trim, and speed-power knowledge. Phase 4: onboard data units on all 34 vessels capturing 1-minute interval data.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence"
+    ],
+    "outcome": "6 of 8 D/E-rated vessels improved to C or better. Fleet fuel consumption reduced 7.3% year-on-year, saving approximately 3.1M annually. Benchmarking revealed 3 vessel types systematically underperforming.",
+    "summary": "Fleet twin for 34 bulk carriers improved CII ratings and achieved 7.3% fuel reduction worth 3.1M annually through operational optimization.",
+    "detailed": "Starting with noon report digitization (not hardware) was the key MVT decision \u2014 delivered initial value in 8 weeks vs months for sensor deployment. Phase 3 captured knowledge held by two senior superintendents, one of whom retired during the project. Phase 4 continuous data revealed noon reports had systematically underreported fuel consumption by 3-4%.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-007",
+    "title": "Urban Mobility Digital Twin for Traffic Optimization",
+    "industry": "Smart Cities / Urban Mobility",
+    "challenge": "European city of 380,000 with peak journey times up 18% in five years, public transport punctuality at 71% (target 90%), and EU NO2 limits exceeded 47 days/year. Traffic signals, PT scheduling, and parking managed as three separate systems.",
+    "approach": "Applied SMILE Phases 1-4 with MIMs Plus alignment. Phase 1: unified mobility canvas integrating three systems with pedestrian, mobile network, and weather data. Phase 2: MVT targeting 12 km arterial corridor responsible for 60% of peak congestion. Phase 3: urban mobility ontology bridging traffic, PT, and environmental domains. Phase 4: real-time pipeline with 30-second update frequency.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence"
+    ],
+    "outcome": "Peak journey times reduced 14%. Bus punctuality improved from 69% to 88%. NO2 reduced 11% year-on-year through smoother traffic flow.",
+    "summary": "Corridor-level mobility twin for a city of 380,000 using MIMs Plus reduced journey times 14% and improved bus punctuality to 88%.",
+    "detailed": "Three transport systems operated on incompatible spatial reference systems \u2014 unifying to ETRS89 took 4 weeks. A tri-party data sharing framework under GDPR consumed 8 weeks. Legal interoperability was the most neglected layer and the biggest schedule impact.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-008",
+    "title": "Precision Farming Twin for Nitrogen Optimization",
+    "industry": "Agriculture / Precision Farming",
+    "challenge": "4,200-hectare mixed arable operation applying inputs at field level based on historical averages. Input costs up 40% in two years. Lacked within-field resolution for variable-rate precision agriculture.",
+    "approach": "Applied SMILE Phases 1-4. Phase 1: field reality canvas from soil surveys, yield maps, satellite imagery. Phase 2: MVT for 18 wheat fields (35% area, 55% fertilizer spend). Phase 3: crop response ontology with agronomists mapping soil, weather, growth stage to nitrogen response. Phase 4: 24 soil sensors plus satellite NDVI at 3-day intervals.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence"
+    ],
+    "outcome": "Nitrogen application reduced 22%. Yield variability reduced 31%. Achieved nitrate vulnerable zone compliance without annual derogation.",
+    "summary": "Field-level farming twin for 4,200 hectares reduced nitrogen 22% and yield variability 31% through soil sensors and crop response ontology.",
+    "detailed": "Phase 3 discovered 15-year-old soil survey data no longer matched current conditions. Targeted resampling corrected classifications explaining previously unexplained yield problems. Sensor density was a pragmatic compromise (24 vs optimal 180+), leading to a confidence gradient concept for agricultural twin adoption.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-009",
+    "title": "Warehouse Automation Simulation Twin",
+    "industry": "Logistics / Warehouse Automation",
+    "challenge": "48,000 sqm e-commerce fulfillment center evaluating a 12M AMR automation investment. Processing 85,000 orders/day at peak. Labor availability was binding constraint with 40% peak-season surge.",
+    "approach": "Applied SMILE Phases 1-3 with emphasis on virtual-first validation. Phase 1: complete 3D model with 18 months of order and pick path data. Phase 2: discrete event simulation validated against historical KPIs, then 12 AMR scenarios tested. Phase 3: human-robot interaction ontology with operations, engineering, and AMR vendor teams.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence"
+    ],
+    "outcome": "Identified optimal configuration (280 robots, goods-to-person) delivering 94% throughput benefit at 68% investment cost. Avoided 4.4M of over-investment through Phase 2 simulation alone.",
+    "summary": "Discrete event simulation evaluated 12 AMR scenarios, finding optimal config at 94% benefit for 68% cost, avoiding 4.4M over-investment.",
+    "detailed": "Entire value delivered in virtual domain (Phases 1-3) without sensors or AI. The simulation twin was the MVT. Uncovered a mezzanine induction bottleneck the AMR vendor had not modeled. Stopping at Phase 3 was the correct decision \u2014 operational twin justified only after physical installation.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  },
+  {
+    "id": "cs-010",
+    "title": "Aircraft Maintenance Twin for Regional Airline Fleet",
+    "industry": "Aerospace / Aircraft Maintenance",
+    "challenge": "47 turboprop aircraft with 2.3 AOG events/week causing flight cancellations. Technical dispatch reliability 96.8% vs 98.5% benchmark. Conservative calendar/cycle maintenance over-maintaining some aircraft while missing deterioration in others.",
+    "approach": "Applied SMILE Phases 1-5 within EASA Part-M requirements. Phase 1: individual aircraft twins from airframe records, engine history, FDM data. Phase 2: MVT targeting top 8 defect categories (71% of AOG events). Phase 3: maintenance knowledge ontology with licensed engineers mapping FDM patterns to failure modes. Phase 4: integrated FDM, component lifecycle, and defect reporting. Phase 5: anomaly detection producing daily fleet health reports.",
+    "smilePhases": [
+      "reality-emulation",
+      "concurrent-engineering",
+      "collective-intelligence",
+      "contextual-intelligence",
+      "continuous-intelligence"
+    ],
+    "outcome": "AOG events reduced from 2.3 to 0.9 per week. Dispatch reliability improved from 96.8% to 98.6%, exceeding benchmark. 34 impending failures detected and resolved during scheduled ground time.",
+    "summary": "Individual aircraft twins for 47-aircraft fleet under EASA compliance reduced AOG events from 2.3 to 0.9/week, achieving 98.6% dispatch reliability.",
+    "detailed": "Analytics framed as risk prioritization for human review, not autonomous decisions \u2014 required by EASA and epistemologically correct. Two of eight defect categories had no FDM precursor, leading to conditional inspection based on environmental exposure rather than prediction. The hybrid human-AI workflow outperformed both pure approaches.",
+    "visibility": "public",
+    "tier": "free",
+    "anonymized": true
+  }
+]

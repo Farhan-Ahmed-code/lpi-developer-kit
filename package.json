@@ -1,0 +1,28 @@
+{
+  "name": "lpi-developer-kit",
+  "version": "1.0.0",
+  "description": "LPI Sandbox — Build AI agents on the Life Programmable Interface",
+  "type": "module",
+  "bin": {
+    "lpi-sandbox": "./dist/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/src/index.js",
+    "test-client": "node dist/test-client.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "WINNIIO / LifeAtlas <nicolas@lifeatlas.online>",
+  "license": "MIT"
+}
